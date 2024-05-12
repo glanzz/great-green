@@ -1,0 +1,199 @@
+{
+    "landing.content.label1":"Integrating technology",
+    "landing.content.label2":"with",
+    "landing.content.label3":"environmental stewardship",
+    "steps.title.head":"Here's how our app works",
+    "steps.title.content":"Great-Green is a pioneering web application designed to address the critical challenges of desertification, particularly in desert belts like the Sahel,through innovative reforestation and sustainable land management efforts.",
+    "step1.title.head":"Registration",
+    "step1.content.label1":"SignUp for the program",
+    "step1.content.label2":"Login using your credentials",
+    "step2.title.head":"Start your Journey",
+    "step2.content.label1":"Select your difficulty",
+    "step2.title.label2":"Plant kit assigned",
+    "step2.title.label3":"Select nearest location to pick-up kit",
+    "step3.title.head":"Growing",
+    "step3.content.label1":"Get detailed instructions",
+    "step3.title.label2":"Track progress with milestones",
+    "step3.title.label3":"Mark journey complete",
+    "step3.title.label4":"Receive Badges",
+    "step4.title.head":"Contribution",
+    "step4.content.label1":"Donate minimun 20% of yield to poverty",
+    "step4.title.label2":"Track progress with milestones",
+    "step4.title.label3":"Get assigned to a drop off centre",
+    "step4.title.label4":"Visit the centre & donate yield",
+    "step4.title.label5":"Mark contribution as complete",
+    "step5.title.head":"Affiliation",
+    "step5.content.label1":"Register as Affiliate",
+    "step5.title.label2":"Create kits",
+    "step5.title.label3":"Wait for requests",
+    "step5.title.label4":"Accept nearby affiliation of new user",
+    "step5.title.label5":"Get preparation instructions",
+    "step5.title.label6":"Mark preparation as done",
+    "step5.title.label7":"Wait for pickup",
+    "step5.title.label8":"Mark affiliation complete",
+    "aboutus.title":"About Us",
+    "aboutus.content":"This platform not only focuses on planting trees but also introduces a unique model of engaging users in growing diverse crops, plants, and flowers. By integrating technology with environmental stewardship, Great-Green seeks to empower communities, foster biodiversity, and promote a sustainable model of ecological restoration.",
+    "signup.head":"Sign up",
+    "signup.content.name":"Name",
+    "signup.content.name.validation":"Please enter your name (3 letters minimum and spaces only)",
+    "signup.content.gender":"Gender",
+    "signup.content.label1":"Male",
+    "signup.content.label2":"Female",
+    "signup.content.label3":"Others",
+    "signup.content.email":"Email",
+    "signup.content.email.validation":"Please enter proper email",
+    "signup.content.password":"Password",
+    "signup.content.password.info":"Minimum 8 characters",
+    "signup.content.password.validation":"Minimum one lowercase letter,uppercase letter,numeric value",
+    "signup.content.repassword":"Re-enter Password",
+    "signup.content.repassword.validation":"Please enter proper password",
+    "signup.content.location":"Your Current Location",
+    "signup.button.label":"Sign Up",
+    "signup.link.label":"Already have an account? Sign in",
+    "signup.link.copyright.label":"Copyright © Great Green 2024.",
+
+    "login.title":"Login",
+    "loginform.email":"Email",
+    "loginform.email.info":"Enter Email",
+    "loginform.password":"Password",
+    "loginform.password.info":"Enter Password",
+    "loginform.button":"Login",
+
+    "navbar.item.label1":"My Journeys",
+    "navbar.item.label2":"My Contributions",
+    "navbar.item.label3":"Affiliations",
+    "navbar.item.label4":"My Profile",
+
+    "myjourney.heading.validation":"No Journeys Yet",
+
+    "journey.summary.label1":"Assigned Kit",
+    "journey.summary.label2":"Start Date",
+    "journey.summary.label3":"Status",
+    "journey.summary.status.item1":"ACTIVE",
+    "journey.summary.status.item2":"COMPLETED",
+    "journey.summary.button":"View",
+
+    "journey.card.title": "Journey Details",
+    "journey.card.title1": "Your journey information",
+    "journey.card.id.title": "Journey ID",
+    "journey.card.level.title": "Level",
+    "journey.card.kit.title": "Kit Name",
+
+    "kit.card.title": "Assigned Kit",
+    "kit.card.content": "Addon",
+
+    "infobox.title": "Actions",
+
+    "journey.providerHeader": "Pickup Details",
+    "journey.providerHeader.info.pending": "You have been assigned a kit. Awaiting confirmation from affiliate. You can pickup the kit once it is ready.",
+    "journey.providerHeader.actionitem.pickup": "Picked Up",
+    "journey.providerHeader.info.waiting":"Your request was accepted by affiliate, you can collect your kit from the pickup address given",
+    "journey.providerHeader.info.pickedup":"You can collect your kit from the pickup address given and mark complete button. Only mark pickup when you are have recieved the kit.",
+    "journey.providerSubHeader.pickup": "Pickup from the provided address and timings",
+    "journey.providerHeader.pickedup.action": "Congratulations, Your journey is now active",
+    "journey.inprogress.info":"Go through the instructions and track your journey by adding milestones. You need min 5 milestones for journey to be complete.",
+    "journey.inprogress.actionItem":"Complete Journey",
+    "journey.provideHeader.title":"Provider Details",
+    "journey.completed.info":"Congratulations ! Your journey is complete, you can contribute and affiliate now.",
+    
+    "journey.notPresent":"Could Not Find Journey !",
+    "journey.info.title":"Journey Information",
+    "journey.inst.title":"Journey Instructions",
+
+    "milestone.title":"Milestones",
+    "milestone.empty":"No Milestones here",
+    "milestone.button":"Add Milestone",
+
+    "milestone.form.button.back":"Back",
+    "milestone.form.button.cancel":"Cancel",
+    "milestone.form.button.upload":"Upload Image",
+    "milestone.form.title":"Click Add Milestone to add one",
+    "milestone.form.title1":"Please select an image to upload and continue",
+    "milestone.form.addnew.comments":"Any comments ?",
+    "milestone.form.upload":"Upload Image",
+    "milestone.form.title.head":"Milestone",
+
+    "contribution.clac1":"Enter Yield Value in",
+    "contribution.clac2":"Of",
+    "contribution.info":"20% of the value would be considered for contribution which you will have to submit your center.",
+    "contribution.yield.value":"Yield Quantity",
+    "contribution.title":"Please enter a vaild yield value",
+    "contribution.title.success":"Congratulations, Your journey is now complete !",
+    "contribution.date":"Contributed On",
+    "contribution.note.label":"Note: Please complete your contribution by delivering the yeild to ",
+    "contribution.button":"Delivered",
+    "contribution.title.empty":"No Contributions Yet",
+
+    "navbar.title1":"Home",
+    "welcome.title":"Welcome",
+    "welcome.title.subtext":"Join us in our quest to reclaim and revitalize the world's deserts.",
+    "welcome.title.subtex2":"Embark on your active journey now with just a click below!",
+    "welcome.button.title1":"Go to Journey",
+    "welcome.button.title2":"Start Journey",
+    "welcome.badges.title":"Earned Badges",
+
+    "experience.title":"Select Experience",
+    "experience.title.info":"A kit will be assigned to you based on your experience level with growing plants",
+    "experience.level.llabel1":"Easy",
+    "experience.level.llabel2":"Medium",
+    "experience.level.llabel3":"Hard",
+    "experience.level.button":"Continue",
+
+    "assign.kit.title":"Assigning you a kit",
+    "assign.kit.info":"We are finding the best available kit based on your location",
+    "assign.kit.button":" CONTINUE",
+
+    "login.toast":"Sucessfully logged in !",
+    "login.toast.error":"Login Failed !",
+    "signup.toast":"Successfully registered!",
+    "signup.toast.error":"Registration failed!",
+    "fetch.journey.error":"Failed to fetch journeys !",
+    "contributuion.toast":"Your contribution was successfull !",
+    "contributuion.toast.error":"Failed to complete contribution. Please try again.",
+    "update.journey.toast.error":"Operation Failed. Please try again",
+    "create.journey.toast.error":"Operation Failed. Please try again later.",
+    "milestone.toast":"New Milestone added !",
+    "milestone.toast.error":"Could not create milestone. Please try again.",
+
+    "twofa.token":"Must be a 6-digit number",
+    "twofa.handle.submit.info":"Please enter valid token !",
+    "twofa.otp.info":"Enter Your OTP",
+    "twofa.email.info":"Check your email ",
+    "twofa.signup.button.title":"Sign Up"
+    
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+}
