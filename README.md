@@ -15,6 +15,7 @@ The Great Green Wall initiative focuses on planting the right type of vegetation
 However, despite these efforts, only 4% of the target has been completed thus far, highlighting the need for accelerated action. Overcoming obstacles such as funding constraints and promoting diversified farming practices are essential for the success of the Great Green Wall initiative and the long-term sustainability of the Sahara and Sahel regions.
 
 
+
 # Features
 1. Plant Growth Tracking & Sharing
 2. Grow and Contribute: Users interested in growing plants can select from a variety of seeds based on their difficulty level. They receive detailed instructions for nurturing the plants and are encouraged to share progress through weekly updates.
@@ -61,15 +62,7 @@ Be a part of Great-Green's mission to transform desertified lands into thriving 
 - npm 10.5.0
 - Mongo DB
 
-## API setup instructions
-- `cd service`
-- `sh setup.sh`
 
-## UI setup instructions
-- `cd app`
-- `npm i` installs all vite related packages
-- `cd great-green`
-- `npm i` installs all the UI dependent packages
-- `npm run dev` Runs application in dev mode
-- Change the HOST_URL in api.ts file to point to different server
-
+## Further Reading
+- [Desertification and Climate Change](https://www.ipcc.ch/srccl/chapter/chapter-3/)
+- [Green Wall of India](https://www.youtube.com/watch?v=pVjnuMQ0YmY)
