@@ -3,7 +3,7 @@ import { Box, Card } from "@mui/material";
 import Avatar from '@mui/material/Avatar';
 import { t } from "i18next";
 import React, { useEffect, useRef } from 'react';
-import { useTranslation } from "../../../node_modules/react-i18next";
+import { useTranslation } from "react-i18next";
   //internalization
   
 

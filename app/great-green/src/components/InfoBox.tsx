@@ -1,5 +1,5 @@
 import { Card, CardHeader, CardContent, Typography, Paper, CardActions, Button } from "@mui/material";
-import {useTranslation} from '../../node_modules/react-i18next';
+import {useTranslation} from 'react-i18next';
 type Props = {
   actionName: string,
   actionHandler: () => void,

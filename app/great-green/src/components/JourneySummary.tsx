@@ -2,7 +2,7 @@ import { Card, CardHeader, CardContent, Typography, Button, Chip, CardActions } 
 import { Journey } from "../models/journey";
 import moment from "moment";
 import { useNavigate } from "react-router-dom";
-import {useTranslation} from '../../node_modules/react-i18next';
+import {useTranslation} from 'react-i18next';
 
 type Props = {
   journey: Journey

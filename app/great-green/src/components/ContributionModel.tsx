@@ -7,7 +7,7 @@ import { useDispatch } from "react-redux";
 import { AppDispatch } from "../store";
 import { toast } from "react-toastify";
 import { Journey} from "../models/journey";
-import {useTranslation} from '../../node_modules/react-i18next';
+import {useTranslation} from 'react-i18next';
 
 
 type Props = {

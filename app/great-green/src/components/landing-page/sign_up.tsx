@@ -19,7 +19,7 @@ import Maps from './map';
 import { generateOTP, registerUser } from '../../utils/api';
 import { useNavigate } from 'react-router-dom';
 
-import { useTranslation } from "../../../node_modules/react-i18next";
+import { useTranslation } from "react-i18next";
 import TwoFAForm from './2FAForm';
  
 

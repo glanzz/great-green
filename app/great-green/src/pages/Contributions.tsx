@@ -6,7 +6,7 @@ import { AppDispatch } from "../store";
 import { getContributionJourneys } from "../store/journey-slice";
 import { fetchJourneys } from "../utils/api";
 import ContributionCard from "../components/ContributionCard";
-import { useTranslation } from "../../node_modules/react-i18next";
+import { useTranslation } from "react-i18next";
 
 // Define the MyContributions functional component
 const MyContributions = () => {

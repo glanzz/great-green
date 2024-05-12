@@ -4,7 +4,7 @@ import { Container } from '@mui/material';
 import Icon from '@mdi/react';
 import { mdiNumeric1, mdiNumeric2, mdiNumeric3, mdiNumeric4, mdiNumeric5 } from '@mdi/js';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
-import {useTranslation} from '../../../node_modules/react-i18next';
+import {useTranslation} from 'react-i18next';
 function Steps() {
     //internationalization
     const {t} = useTranslation('common');

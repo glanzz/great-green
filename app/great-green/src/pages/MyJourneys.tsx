@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import { getJourneys } from '../store/journey-slice';
 import { Box, Grid, Typography } from '@mui/material';
 import JourneySummary from '../components/JourneySummary';
-import {useTranslation} from '../../node_modules/react-i18next';
+import {useTranslation} from 'react-i18next';
 
 
 const MyJourneys = () => {

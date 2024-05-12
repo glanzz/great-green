@@ -3,12 +3,12 @@ import Steps from "../components/landing-page/steps";
 import About from "../components/landing-page/about_us";
 import Signup from "../components/landing-page/sign_up";
 import { ThemeProvider } from "@emotion/react";
-import * as THREE from "../../node_modules/@types/three";
+import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/Addons.js";
 import { GLTFLoader } from "three/examples/jsm/Addons.js";
 import { useEffect, useRef } from "react";
 import theme from "../theme";
-import { useTranslation } from "../../node_modules/react-i18next";
+import { useTranslation } from "react-i18next";
 import { languageSelect } from "../utils/helpers";
 
 // Define the LandingPage component

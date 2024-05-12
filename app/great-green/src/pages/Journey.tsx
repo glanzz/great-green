@@ -15,7 +15,7 @@ import { toast } from "react-toastify";
 import Milestones from "../components/Milestones";
 import { getNextStatus } from "../utils/helpers";
 import ContributionModel from "../components/ContributionModel";
-import { useTranslation } from "../../node_modules/react-i18next";
+import { useTranslation } from "react-i18next";
 
 // Define the Journey component
 const Journey = () => {

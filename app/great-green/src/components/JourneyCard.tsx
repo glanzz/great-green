@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, Chip, Typography } from "@mui/material";
 import { Journey } from "../models/journey";
 import moment from 'moment';
 import { Pending, HourglassBottom, WhereToVote, TrendingUp, Verified, Forest, Park, Grass} from "@mui/icons-material"
-import {useTranslation} from '../../node_modules/react-i18next';
+import {useTranslation} from 'react-i18next';
 type Props = {
   journey: Journey
 }

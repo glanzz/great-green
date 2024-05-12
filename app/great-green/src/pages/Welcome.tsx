@@ -8,7 +8,7 @@ import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { AppDispatch } from "../store";
 import { getActiveJourney } from "../store/journey-slice";
-import {useTranslation} from '../../node_modules/react-i18next';
+import {useTranslation} from 'react-i18next';
 import { fetchJourneys, getUserInfo } from "../utils/api";
 import { getUser, loadUserInfo } from "../store/user-slice";
 

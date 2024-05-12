@@ -5,7 +5,7 @@ import { ChangeEvent, useState } from "react";
 import { createMilestone, fetchJourneys } from "../utils/api";
 import { useDispatch } from "react-redux";
 import { AppDispatch } from "../store";
-import {useTranslation} from '../../node_modules/react-i18next';
+import {useTranslation} from 'react-i18next';
 
 
 type Props  = {

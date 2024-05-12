@@ -1,7 +1,7 @@
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import { Box, Avatar, Typography, Grid, TextField, Button, Fade } from "@mui/material";
 import { ChangeEvent, useState } from 'react';
-import { useTranslation } from '../../../node_modules/react-i18next';
+import { useTranslation } from 'react-i18next';
 import { toast } from 'react-toastify';
 import {object, string} from 'yup';
 

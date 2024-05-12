@@ -4,7 +4,7 @@ import {  Room } from "@mui/icons-material";
 import CreateMilestoneForm from "./CreateMilestoneForm";
 import { useState } from "react";
 import moment from "moment";
-import {useTranslation} from '../../node_modules/react-i18next';
+import {useTranslation} from 'react-i18next';
 
 type Props = {
   milestones: Array<Milestone>,

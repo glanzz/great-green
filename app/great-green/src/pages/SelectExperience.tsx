@@ -20,7 +20,7 @@ import { getActiveJourney } from "../store/journey-slice";
 import { createJourney, fetchJourneys } from "../utils/api";
 import { Forest, Grass, Park } from "@mui/icons-material";
 import Authenticate from "../components/Authenticate";
-import { useTranslation } from "../../node_modules/react-i18next";
+import { useTranslation } from "react-i18next";
 import { languageSelect } from "../utils/helpers";
 
 // Define the SelectExperience component

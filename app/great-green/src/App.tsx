@@ -3,7 +3,7 @@ import './App.css'
 import { Outlet } from 'react-router-dom';
 import theme from './theme';
 import Authenticate from './components/Authenticate';
-import { useTranslation } from '../node_modules/react-i18next';
+import { useTranslation } from 'react-i18next';
 import { languageSelect } from './utils/helpers';
 import NavBar from './components/Navbar';
 import { useEffect } from 'react';

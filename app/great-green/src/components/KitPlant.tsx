@@ -2,7 +2,7 @@ import { AvatarGroup, Card, CardContent, Typography } from "@mui/material";
 import { Addon, Kit } from "../models/journey";
 import { ADDON_ICONS, PLANT_ICONS } from "../constants";
 import TextRoundIcon from "./TextRoundIcon";
-import {useTranslation} from '../../node_modules/react-i18next';
+import {useTranslation} from 'react-i18next';
 type Props =  {
   kit: Kit
 }

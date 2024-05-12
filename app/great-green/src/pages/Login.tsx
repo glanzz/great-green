@@ -10,7 +10,7 @@ import { LoginFormInput } from "../models/login";
 import { login } from "../utils/api";
 import Authenticate from "../components/Authenticate";
 import { useNavigate } from "react-router-dom";
-import { useTranslation } from "../../node_modules/react-i18next";
+import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
 import { languageSelect } from "../utils/helpers";
 

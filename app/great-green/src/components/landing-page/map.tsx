@@ -3,7 +3,7 @@ import { Card, CardMedia, Typography } from "@mui/material";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 
 import "leaflet/dist/leaflet.css";
-import { useTranslation } from "../../../node_modules/react-i18next";
+import { useTranslation } from "react-i18next";
 
 type Props = {
     longitude: number,
