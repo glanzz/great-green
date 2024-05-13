@@ -15,16 +15,18 @@ The Great Green Wall initiative focuses on planting the right type of vegetation
 However, despite these efforts, only 4% of the target has been completed thus far, highlighting the need for accelerated action. Overcoming obstacles such as funding constraints and promoting diversified farming practices are essential for the success of the Great Green Wall initiative and the long-term sustainability of the Sahara and Sahel regions.
 
 
+With more initiatives like Green wall of India coming up, there is a need to resolve the issues to combat the changes in environment.
+
+Note: Skip to user flow diagrams shown below for visual description of the functionality
 
 # Features
 1. Plant Growth Tracking & Sharing
 2. Grow and Contribute: Users interested in growing plants can select from a variety of seeds based on their difficulty level. They receive detailed instructions for nurturing the plants and are encouraged to share progress through weekly updates.
-3. Seed Sharing Initiative
-4. Sustain and Multiply: Once plants yield crops or seeds, users are encouraged to send back 20% of their yield to Great-Green or designated UN programs. This unique cycle helps sustain the project and expand reforestation efforts.
-5. Interactive Mapping
-6. Visualize and Engage: Users can explore interactive maps to see affected areas, ongoing projects, and identify zones needing attention. They can manage reforestation projects with comprehensive tools, tracking progress and evaluating impact.
-7. Connect and Learn: The platform encourages community interaction for knowledge exchange and collaboration. It offers a rich library of materials to educate on desertification, its effects, and mitigation strategies.
-8. Plant Recovery Support: Community Engagement & Educational Resources are available for providing support to struggling plants with issues or pests. Experts will be consulted when requested on as need basis.
+3. Sustain and Multiply: Once plants yield crops or seeds, users are encouraged to send back 20% of their yield to Great-Green or designated UN programs. This unique cycle helps sustain the project and expand reforestation efforts.
+4. Interactive Mapping
+5. Visualize and Engage: Users can explore interactive maps to see affected areas, ongoing projects, and identify zones needing attention. They can manage reforestation projects with comprehensive tools, tracking progress and evaluating impact.
+6. Connect and Learn: The platform encourages community interaction for knowledge exchange and collaboration. It offers a rich library of materials to educate on desertification, its effects, and mitigation strategies.
+7. Plant Recovery Support: Community Engagement & Educational Resources are available for providing support to struggling plants with issues or pests. Experts will be consulted when requested on as need basis.
 
 # Goals
 * Enhance Ecological Restoration: To increase rehabilitated lands and introduce a sustainable cycle of plant growth and sharing.
@@ -33,9 +35,16 @@ However, despite these efforts, only 4% of the target has been completed thus fa
 * Contribute to Climate Action: Leverage reforestation and sustainable agriculture to sequester carbon and combat climate change.
 
 # How It Works
-* Seed Selection: Users choose seeds based on their planting experience and receive detailed cultivation instructions.
-* Progress Sharing: Users upload photos of their plants at weekly intervals, sharing their journey with the community.
+* Kit Assignment: Users are assigned a kit based on their planting experience and receive detailed cultivation instructions.
+* Progress Tracking: Users upload photos of their plants at weekly intervals, tracking their journey.
 * Yield Sharing: Upon harvest, users contribute 20% of their seeds or crops back to the project or partner organizations, helping to perpetuate the cycle of growth and support further reforestation projects.
+* Affiliation: Register as an affiliation center by preparing new kits and accepting new kit requests to help start other's journey.
+
+# Design
+![HighLevelCompleteUserFlow](/docs/User%20Flow%20High%20Level.jpeg)
+![CompleteUserFlow](/docs/User%20Flow%20-%20In%20Depth.jpeg)
+![How it works](/docs/How%20it%20works.png)
+
 
 # Technology Stack
 * Interactive UI: React.js for an engaging frontend.
