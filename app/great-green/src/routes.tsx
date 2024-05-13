@@ -8,6 +8,7 @@ import LandingPage from "./pages/LandingPage";
 import Welcome from "./pages/Welcome";
 import Experience from "./pages/SelectExperience";
 import AssignKit from "./pages/AssigningKit";
+import GithubPage from "./pages/GithubHome";
 
 const router = createBrowserRouter([
   {
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     Component: LandingPage,
+  },
+  {
+    path: "/great-green", // Page for Github pages
+    Component: GithubPage,
   },
   {
     path: "/select-experience",
