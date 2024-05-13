@@ -9,7 +9,7 @@ import { useTranslation } from "react-i18next";
 
 const AboutCard = () => {
     let base = "/"
-    if (window.location.href.indexOf("great-green") === -1) {
+    if (window.location.href.indexOf("great-green") !== -1) {
         base = "/great-green/"
     }
     return (
