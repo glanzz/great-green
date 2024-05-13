@@ -27,6 +27,9 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    defaults:
+       run:
+         working-directory: ./app/great-green
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -36,8 +39,6 @@ jobs:
           node-version: 20
           cache: 'npm'
           cache-dependency-path: './app/great-green/package-lock.json'
-      - name: Go to app folder
-        run: cd app/great-green
       - name: Install dependencies
         run: npm ci
       - name: Build
