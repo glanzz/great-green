@@ -7,8 +7,12 @@ import { useTranslation } from "react-i18next";
   //internalization
   
 
-const AboutCard = () => (
-   
+const AboutCard = () => {
+    let base = "/"
+    if (window.location.href.indexOf("great-green") === -1) {
+        base = "/great-green/"
+    }
+    return (
     <div style={{padding: "40px", border: 0, display: "flex", flexWrap: "wrap", justifyContent: "space-between", color: "white"}} >
         <div style={{zIndex: 999}}>
                 <div className='about_head'>{t('aboutus.title')}</div>
@@ -19,11 +23,12 @@ const AboutCard = () => (
                 </div>
                 </div>
                 <Avatar alt="Remy Sharp"
-             src="/great green wall.jpeg"
+             src={base + "great green wall.jpeg"}
              sx={{ width: "300px", height: "300px", zIndex: 999 }}
             />
             </div>
 );
+}
 
 //interacting animation
 const InteractiveComponent: React.FC = () => {

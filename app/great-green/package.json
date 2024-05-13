@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "buildgit": "vite build --base=/great-green",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "pwa-assets": "pwa-assets-generator --preset minimal-2023 public/logo.svg"

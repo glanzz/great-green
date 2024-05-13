@@ -140,7 +140,7 @@ function GithubPage() {
         <div className="background">
           <div
             style={{
-              backgroundImage: `url('/background.png')`,
+              backgroundImage: `url('/great-green/background.png')`,
               backgroundSize: "cover",
               height: "100vh",
             }}
@@ -150,7 +150,7 @@ function GithubPage() {
               <div></div>
               <div>
                 <div className="title">
-                  <img src="/logowhite.png" width={100} alt="logo" />
+                  <img src="/great-green/logowhite.png" width={100} alt="logo" />
                 </div>
                 <div className="info">
                   {t("landing.content.label1")}
