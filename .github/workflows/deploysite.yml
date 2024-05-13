@@ -30,13 +30,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Go to app folder
+        run: cd app/great-green
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
-      - name: Go to app folder
-        run: cd app/great-green
       - name: Install dependencies
         run: npm ci
       - name: Build
