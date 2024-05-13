@@ -47,7 +47,7 @@ function GithubPage() {
       const loader = new GLTFLoader();
 
       loader.load(
-        `/animatedModels/mangotree/scene.gltf`,
+        `/great-green/animatedModels/mangotree/scene.gltf`,
         function (gltf) {
           object = gltf.scene;
 
